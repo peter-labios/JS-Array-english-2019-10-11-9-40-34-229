@@ -2,6 +2,8 @@
 var a = '[a, b, c, d]'; //not an array
 var b = [1, 2, 3, 4]; //an array
 //TODO
+console.log("is a an array?: " + Array.isArray(a))
+console.log("is b an array?: " + Array.isArray(b))
 
 // Write a program that multiplies each entry in the following array by 2。
 var a = [1, 2, 3, 4, 5];
